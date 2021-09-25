@@ -1,0 +1,52 @@
+/*Styles the index.html*/
+
+nav ul {
+    margin: 0 auto;
+}
+/*Styles the navbar*/
+
+nav ul li {
+    margin: auto 10px;
+    font-size: 18px;
+}
+/*Styles the list within the navbar.*/
+
+.img {
+    display: block;
+    align-items: center;
+    margin: 50px auto;
+    height: 300px;
+    width: 250px;
+}
+/*Styles the image displayed.*/
+
+h1 {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+    margin: 0 auto;
+}
+/*Styles the portfolio and 'see code here' button.*/
+
+#contact {
+    text-align: left;
+    padding: 15px;
+}
+/*Styles the 'contact details'*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*Styles the links.*/
+
+body {
+    background: rgb(199, 207, 201);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    display: block;
+    overflow-x: hidden;
+}
+/*Styles the body.*/
